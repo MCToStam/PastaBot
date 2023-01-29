@@ -1,7 +1,7 @@
 class config {
     constructor() {
-        this.token2 = "OTAyODI3MDY4OTAxOTQ5NDYw.GJzVU3.kPZa84as2Ncc4vyZHBYfp1WwqOkI-uevnbJ3dk"
-        this.token = "OTAyODI3MDY4OTAxOTQ5NDYw.GJzVU3.kPZa84as2Ncc4vyZHBYfp1WwqOkI-uevnbJ3dk"
+        this.token2 = "TOKEN_BOT"
+        this.token = "TOKEN_BOT"
         this.devid = ["719072181631320145"]
         this.bote = 'ToStam'
         this.version = '2.1'
