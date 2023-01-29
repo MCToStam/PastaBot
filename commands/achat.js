@@ -30,7 +30,7 @@ class achat {
         .setFooter({ text: `Achat éffectué par ${interaction.member.displayName}` , iconURL: config.logo })
         .setTimestamp()
 
-            client.channels.cache.get('1051208513210286231').send({embeds: [achat]});
+            client.channels.cache.get('CHANNEl_ID').send({embeds: [achat]});
             interaction.reply({ content: "L'achat a bien été effectué !", ephemeral: true })
       	    client.user.setPresence({ activities: [{ name: `PastaPvP V3 | ${presence} commandes effectués` }], status: 'WATCHING' });
                 };
