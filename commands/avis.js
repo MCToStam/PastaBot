@@ -32,7 +32,7 @@ class commandfeedback {
             .setFooter({ text: `${interaction.member.displayName}` , iconURL: config.logo })
             .setTimestamp()
 
-        client.channels.cache.get('741960795939799160').send({embeds: [embed2]});
+        client.channels.cache.get('CHANNEL_ID').send({embeds: [embed2]});
     }      
 }
 module.exports = commandfeedback
