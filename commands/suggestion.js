@@ -22,7 +22,7 @@ class suggest {
         .setFooter({ text: `Suggestion de ${interaction.member.displayName}` , iconURL: config.logo })
         .setTimestamp()
 
-            client.channels.cache.get('741960795071709216').send({embeds: [suggest]});
+            client.channels.cache.get('CHANNEL_ID').send({embeds: [suggest]});
         	interaction.reply({ content: "La suggestion a bien été effectué !", ephemeral: true })
                 }
 }
