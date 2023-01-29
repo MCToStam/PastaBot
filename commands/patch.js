@@ -24,7 +24,7 @@ class patch {
         .setFooter({ text: `Patch-Note de ${interaction.member.displayName}` , iconURL: config.logo })
         .setTimestamp()
 
-            client.channels.cache.get('1050061319514095626').send({embeds: [patchnote]});
+            client.channels.cache.get('CHANNEL_ID').send({embeds: [patchnote]});
         	interaction.reply({ content: "Le patch a bien été effectué !", ephemeral: true })
                 }
 }
