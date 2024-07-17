@@ -5,7 +5,7 @@ class config {
         this.devid = ["USER_ID"]
         this.bote = 'ToStam'
         this.version = '2.1'
-        this.youtube= 'AIzaSyDbMiE_PhC-ydfYNQSPPzEiAr34C0tJlvM'
+        this.youtube= 'TOKEN_YOUTUBE'
         this.logo = 'LOGO_BOT'
     }
 }
